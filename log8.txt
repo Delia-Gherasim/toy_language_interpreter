@@ -1,0 +1,4840 @@
+Program State 1
+ExeStack: 
+Ref(int)  v1
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Ref(int)  v1
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Ref(int)  v1
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+int cnt
+
+SymTable: 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+int cnt
+
+SymTable: 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  0 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  0 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+New( v1   1   )
+
+SymTable: 
+cnt:  0 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+New( v1   1   )
+
+SymTable: 
+cnt:  0 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  0 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  0 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+CreateSemaphore(  var= cnt expression=v1)
+
+SymTable: 
+cnt:  0 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+CreateSemaphore(  var= cnt expression=v1)
+
+SymTable: 
+cnt:  0 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   10   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   10   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+Release(cnt)
+
+Print(v1)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+Release(cnt)
+
+Print(v1)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 2
+ExeStack: 
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Release(cnt)
+
+Print( v1 MINUS   1   )
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Release(cnt)
+
+Print( v1 MINUS   1   )
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   10   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   10   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  100 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  100 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   2   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  100 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   2   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  100 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  200 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  200 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+Release(cnt)
+
+Print(v1)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  200 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+Release(cnt)
+
+Print(v1)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  200 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ,  200 ]
+Heap: 
+1:  200 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ,  200 ]
+Heap: 
+1:  200 
+Semaphore: 
+
+Program State 3
+ExeStack: 
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ,  200 ]
+Heap: 
+1:  200 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Ref(int)  v1
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Ref(int)  v1
+
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Ref(int)  v1
+
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+v1:  0 : int
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+v1:  0 : int
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+int cnt
+
+SymTable: 
+v1:  0 : int
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+int cnt
+
+SymTable: 
+v1:  0 : int
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  0 
+v1:  0 : int
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  0 
+v1:  0 : int
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+New( v1   1   )
+
+SymTable: 
+cnt:  0 
+v1:  0 : int
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+New( v1   1   )
+
+SymTable: 
+cnt:  0 
+v1:  0 : int
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  0 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  0 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+CreateSemaphore(  var= cnt expression=v1)
+
+SymTable: 
+cnt:  0 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+CreateSemaphore(  var= cnt expression=v1)
+
+SymTable: 
+cnt:  0 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 2
+ExeStack: 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 2
+ExeStack: 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 2
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 2
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 2
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 3
+ExeStack: 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 2
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 3
+ExeStack: 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 2
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   10   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 2
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   10   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+
+Program State 2
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+
+Program State 2
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+
+Program State 2
+ExeStack: 
+Release(cnt)
+
+Print(v1)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+
+Program State 2
+ExeStack: 
+Release(cnt)
+
+Print(v1)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 2
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 2
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 2
+ExeStack: 
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+Release(cnt)
+
+Print( v1 MINUS   1   )
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+Release(cnt)
+
+Print( v1 MINUS   1   )
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+
+Program State 1
+ExeStack: 
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   10   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   10   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  100 
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  100 
+
+Program State 3
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   2   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  100 
+
+Program State 3
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   2   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  100 
+
+Program State 3
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  200 
+
+Program State 3
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  200 
+
+Program State 3
+ExeStack: 
+Release(cnt)
+
+Print(v1)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  200 
+
+Program State 3
+ExeStack: 
+Release(cnt)
+
+Print(v1)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  200 
+
+Program State 3
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ,  200 ]
+Heap: 
+1:  200 
+
+Program State 3
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ,  200 ]
+Heap: 
+1:  200 
+
+Program State 3
+ExeStack: 
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ,  200 ]
+Heap: 
+1:  200 
+
+Program State 1
+ExeStack: 
+Ref(int)  v1
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Ref(int)  v1
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Ref(int)  v1
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+int cnt
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+int cnt
+
+SymTable: 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+int cnt
+
+SymTable: 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  0 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+New( v1   1   )
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  0 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+New( v1   1   )
+
+SymTable: 
+cnt:  0 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+New( v1   1   )
+
+SymTable: 
+cnt:  0 
+v1:  0 : int
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  0 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+CreateSemaphore(  var= cnt expression=v1)
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  0 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+CreateSemaphore(  var= cnt expression=v1)
+
+SymTable: 
+cnt:  0 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+CreateSemaphore(  var= cnt expression=v1)
+
+SymTable: 
+cnt:  0 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[]
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[]
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[]
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+ )
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[]
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[]
+
+Program State 2
+ExeStack: 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[]
+
+Program State 1
+ExeStack: 
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[]
+
+Program State 2
+ExeStack: 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[]
+
+Program State 1
+ExeStack: 
+Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[]
+
+Program State 2
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[]
+
+Program State 1
+ExeStack: 
+Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Fork( 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+ )
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[]
+
+Program State 2
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[]
+
+Program State 1
+ExeStack: 
+Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[2]
+
+Program State 2
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[2]
+
+Program State 3
+ExeStack: 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[2]
+
+Program State 1
+ExeStack: 
+Acquire(var= cnt)
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[2]
+
+Program State 2
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[2]
+
+Program State 3
+ExeStack: 
+Acquire(var= cnt)
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[2]
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[2]
+
+Program State 2
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   10   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[2]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[2]
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[2]
+
+Program State 2
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   10   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[2]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  1 
+Semaphore: 
+1 : 1=[2]
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 2
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 2
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 2
+ExeStack: 
+Release(cnt)
+
+Print(v1)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 2
+ExeStack: 
+Release(cnt)
+
+Print(v1)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 2
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 2
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[2]
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[]
+
+Program State 2
+ExeStack: 
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[]
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[]
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[1]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[1]
+
+Program State 1
+ExeStack: 
+Print( v1 MINUS   1   )
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[1]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[1]
+
+Program State 1
+ExeStack: 
+Release(cnt)
+
+Print( v1 MINUS   1   )
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[1]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[1]
+
+Program State 1
+ExeStack: 
+Release(cnt)
+
+Print( v1 MINUS   1   )
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[1]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[1]
+
+Program State 1
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[1]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[1]
+
+Program State 1
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[1]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+Acquire(var= cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[1]
+
+Program State 1
+ExeStack: 
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   10   
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   10   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   10   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  10 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  100 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+v1-> v1 MULTIPLY   2   
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  100 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   2   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  100 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+v1-> v1 MULTIPLY   2   
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  100 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  200 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+Print(v1)
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  200 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+Release(cnt)
+
+Print(v1)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  200 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+Release(cnt)
+
+Print(v1)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ]
+Heap: 
+1:  200 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ,  200 ]
+Heap: 
+1:  200 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+Release(cnt)
+
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ,  200 ]
+Heap: 
+1:  200 
+Semaphore: 
+1 : 1=[3]
+
+Program State 3
+ExeStack: 
+SymTable: 
+cnt:  1 
+v1:  1 : Ref(int) 
+FileTable: 
+output: [ 10 ,  9 ,  200 ]
+Heap: 
+1:  200 
+Semaphore: 
+1 : 1=[]
+

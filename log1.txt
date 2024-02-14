@@ -1,0 +1,110 @@
+Program State 1
+ExeStack: 
+int v
+v=  2  
+Print(v)
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+v=  2  
+Print(v)
+
+int v
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+v=  2  
+Print(v)
+
+int v
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+v=  2  
+Print(v)
+
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+v=  2  
+Print(v)
+
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print(v)
+
+v=  2  
+
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print(v)
+
+v=  2  
+
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print(v)
+
+SymTable: 
+v:  2 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+Print(v)
+
+SymTable: 
+v:  2 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 1
+ExeStack: 
+SymTable: 
+v:  2 
+FileTable: 
+output: [ 2 ]
+Heap: 
+Semaphore: 
+

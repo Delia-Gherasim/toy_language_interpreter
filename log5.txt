@@ -1,0 +1,735 @@
+Program State 5
+ExeStack: 
+int v
+v=  4  
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+Print(v)
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+v=  4  
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+Print(v)
+
+int v
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+v=  4  
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+Print(v)
+
+int v
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+v=  4  
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+Print(v)
+
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+v=  4  
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+Print(v)
+
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+Print(v)
+
+v=  4  
+
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+Print(v)
+
+v=  4  
+
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+Print(v)
+
+SymTable: 
+v:  4 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+Print(v)
+
+SymTable: 
+v:  4 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  4 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  4 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  4 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  4 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+Print(v)
+
+SymTable: 
+v:  4 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+Print(v)
+
+SymTable: 
+v:  4 
+FileTable: 
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+SymTable: 
+v:  4 
+FileTable: 
+output: [ 4 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+SymTable: 
+v:  4 
+FileTable: 
+output: [ 4 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  3 
+FileTable: 
+output: [ 4 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  3 
+FileTable: 
+output: [ 4 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  3 
+FileTable: 
+output: [ 4 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  3 
+FileTable: 
+output: [ 4 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+Print(v)
+
+SymTable: 
+v:  3 
+FileTable: 
+output: [ 4 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+Print(v)
+
+SymTable: 
+v:  3 
+FileTable: 
+output: [ 4 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+SymTable: 
+v:  3 
+FileTable: 
+output: [ 4 ,  3 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+SymTable: 
+v:  3 
+FileTable: 
+output: [ 4 ,  3 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  2 
+FileTable: 
+output: [ 4 ,  3 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  2 
+FileTable: 
+output: [ 4 ,  3 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  2 
+FileTable: 
+output: [ 4 ,  3 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  2 
+FileTable: 
+output: [ 4 ,  3 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+Print(v)
+
+SymTable: 
+v:  2 
+FileTable: 
+output: [ 4 ,  3 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+Print(v)
+
+SymTable: 
+v:  2 
+FileTable: 
+output: [ 4 ,  3 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+SymTable: 
+v:  2 
+FileTable: 
+output: [ 4 ,  3 ,  2 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+SymTable: 
+v:  2 
+FileTable: 
+output: [ 4 ,  3 ,  2 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  1 
+FileTable: 
+output: [ 4 ,  3 ,  2 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  1 
+FileTable: 
+output: [ 4 ,  3 ,  2 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  1 
+FileTable: 
+output: [ 4 ,  3 ,  2 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  1 
+FileTable: 
+output: [ 4 ,  3 ,  2 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+Print(v)
+
+SymTable: 
+v:  1 
+FileTable: 
+output: [ 4 ,  3 ,  2 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+Print(v)
+
+SymTable: 
+v:  1 
+FileTable: 
+output: [ 4 ,  3 ,  2 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+SymTable: 
+v:  1 
+FileTable: 
+output: [ 4 ,  3 ,  2 ,  1 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+v= v MINUS   1   
+
+SymTable: 
+v:  1 
+FileTable: 
+output: [ 4 ,  3 ,  2 ,  1 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  0 
+FileTable: 
+output: [ 4 ,  3 ,  2 ,  1 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+While (v GREATER_THAN   0  )
+Print(v)
+v= v MINUS   1   
+
+SymTable: 
+v:  0 
+FileTable: 
+output: [ 4 ,  3 ,  2 ,  1 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+SymTable: 
+v:  0 
+FileTable: 
+output: [ 4 ,  3 ,  2 ,  1 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+Print(v)
+
+SymTable: 
+v:  0 
+FileTable: 
+output: [ 4 ,  3 ,  2 ,  1 ]
+Heap: 
+Semaphore: 
+
+Program State 5
+ExeStack: 
+SymTable: 
+v:  0 
+FileTable: 
+output: [ 4 ,  3 ,  2 ,  1 ,  0 ]
+Heap: 
+Semaphore: 
+
